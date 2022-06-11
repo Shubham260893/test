@@ -1,1 +1,4 @@
 WebDriverBaseClass\TestBase.class
+Utilities\ExcelReading.class
+WebDriverBaseClass\Retry.class
+WebDriverBaseClass\TestListener.class

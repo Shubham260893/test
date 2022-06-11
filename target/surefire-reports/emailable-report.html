@@ -9,19 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Testing Google login</th></tr>
-<tr><td><a href="#t0">Sanity</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">247</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Sanity</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,351</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">firefox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,451</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">23,802</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing Google login</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sanity &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">WebDriverBaseClass.TestBase</td><td><a href="#m0">setupBrowser</a></td><td rowspan="1">1654355272083</td><td rowspan="1">192</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing Google login</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sanity &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">WebDriverBaseClass.TestBase</td><td><a href="#m0">setupBrowser</a></td><td rowspan="1">1654977880073</td><td rowspan="1">10274</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">WebDriverBaseClass.TestBase</td><td><a href="#m1">setupBrowser</a></td><td rowspan="1">1654977880073</td><td rowspan="1">13389</td></tr></tbody>
 </table>
-<h2>Sanity</h2><h3 id="m0">WebDriverBaseClass.TestBase#setupBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: &apos;com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)&apos;
-	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
-	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
-	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriver.java:118)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
-	at WebDriverBaseClass.TestBase.setupBrowser(TestBase.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sanity</h2><h3 id="m0">WebDriverBaseClass.TestBase#setupBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>firefox</h2><h3 id="m1">WebDriverBaseClass.TestBase#setupBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
